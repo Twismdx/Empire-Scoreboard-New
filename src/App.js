@@ -42,7 +42,7 @@ function App() {
 					},
 				}
 			)
-			const cid = Object.keys(response).map((key) => key)[0]
+			const cid = response[Object.keys(response)[0]]
 			setComps(response.data)
 			console.log(cid)
 			setCompId(cid)
@@ -62,7 +62,7 @@ function App() {
 					},
 				}
 			)
-			const cid = Object.keys(response).map((key) => key)[0]
+			const cid = response[Object.keys(response)[0]]
 
 			setCompId(cid)
 			console.log(cid)
