@@ -44,6 +44,7 @@ function App() {
 			)
 			const cid = Object.keys(response).map((key) => key)[0]
 			setComps(response.data)
+			console.log(cid)
 			setCompId(cid)
 		} catch (error) {
 			console.error('Error:', error)
@@ -64,6 +65,7 @@ function App() {
 			const cid = Object.keys(response).map((key) => key)[0]
 
 			setCompId(cid)
+			console.log(cid)
 			setComps(response.data)
 		} catch (error) {
 			console.error('Error:', error)
