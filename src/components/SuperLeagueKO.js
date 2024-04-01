@@ -454,9 +454,7 @@ const SuperLeagueKO = ({ resetView }) => {
 							fontFamily: 'semiBold',
 							textAlign: 'center',
 						}}
-					>
-						{'Race to'}
-					</text>
+					></text>
 					<text
 						textAnchor='left'
 						transform='translate(45.61 82)'
