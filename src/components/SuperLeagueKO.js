@@ -489,7 +489,7 @@ const SuperLeagueKO = ({ resetView }) => {
 							textAlign: 'center',
 						}}
 					>
-						{stats[0].home.framescore}
+						{stats[0].homescore}
 					</text>
 					<text
 						textAnchor='middle'
@@ -501,7 +501,7 @@ const SuperLeagueKO = ({ resetView }) => {
 							textAlign: 'center',
 						}}
 					>
-						{stats[0].away.framescore}
+						{stats[0].awayscore}
 					</text>
 					<text
 						textAnchor='middle'
@@ -513,7 +513,7 @@ const SuperLeagueKO = ({ resetView }) => {
 							textAlign: 'center',
 						}}
 					>
-						{stats[0].home.teamname}
+						{stats[0].hometeamlabel}
 					</text>
 					<text
 						textAnchor='middle'
@@ -525,7 +525,7 @@ const SuperLeagueKO = ({ resetView }) => {
 							textAlign: 'center',
 						}}
 					>
-						{stats[0].away.teamname}
+						{stats[0].awayteamlabel}
 					</text>
 					<text
 						textAnchor='middle'
