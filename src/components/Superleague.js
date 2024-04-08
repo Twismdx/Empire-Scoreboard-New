@@ -378,7 +378,7 @@ const Superleague = ({ resetView }) => {
 						<g
 							style={{
 								mask: 'url(#mask-4)',
-								opacity: '1',
+								opacity: '0.5',
 							}}
 						>
 							<path
@@ -448,7 +448,19 @@ const Superleague = ({ resetView }) => {
 					></text>
 					<text
 						textAnchor='middle'
-						transform='translate(624 44)'
+						transform='translate(624 18)'
+						fill='white'
+						style={{
+							fontSize: 18,
+							fontFamily: 'semiBold',
+							textAlign: 'center',
+						}}
+					>
+						Frames Left
+					</text>
+					<text
+						textAnchor='middle'
+						transform='translate(624 50)'
 						fill='white'
 						style={{
 							fontSize: 33,
