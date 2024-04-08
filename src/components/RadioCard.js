@@ -12,7 +12,7 @@ const RadioCard = ({ home, away, startTime, liveStatus, mid, league }) => {
 
 	async function getStats() {
 		axios
-			.post(`https://twism.vercel.app/ids`, null, {
+			.post(`https://twism.vercel.app/drid`, null, {
 				params: {
 					matchId: mid,
 					compId: compId,
