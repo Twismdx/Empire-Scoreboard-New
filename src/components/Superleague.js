@@ -456,8 +456,7 @@ const Superleague = ({ resetView }) => {
 							textAlign: 'center',
 						}}
 					>
-						{stats[0].compname ===
-						'Super League 2024 (Premier Grade)'
+						{stats[0].compname === 'Super League 2024'
 							? calcSuperleagueFrames()
 							: ''}
 					</text>
