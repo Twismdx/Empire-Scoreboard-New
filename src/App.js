@@ -34,13 +34,7 @@ function App() {
 	const fetchEBASA = async () => {
 		try {
 			const response = await axios.post(
-				'https://twism.vercel.app/compstoday',
-				null,
-				{
-					params: {
-						orgid: 33,
-					},
-				}
+				'https://twism.vercel.app/compstoday?orgid=33'
 			)
 			const cid = Object.keys(response.data)[0]
 			setComps(response.data)
@@ -54,13 +48,7 @@ function App() {
 	const fetchVNEA = async () => {
 		try {
 			const response = await axios.post(
-				'https://twism.vercel.app/compstoday',
-				null,
-				{
-					params: {
-						orgid: 122,
-					},
-				}
+				`https://twism.vercel.app/compstoday?orgid=122`
 			)
 			const cid = Object.keys(response.data)[0]
 
